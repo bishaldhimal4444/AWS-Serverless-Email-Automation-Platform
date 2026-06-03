@@ -42,7 +42,7 @@ Recipient Email Inbox
 - Acts as the entry point for frontend requests
 - Handles HTTP methods (POST, OPTIONS)
 
-###### 3. Amazon SES (Simple Email Service)
+##### 3. Amazon SES (Simple Email Service)
 
 - Sends email notifications
 - Requires verified sender and recipient emails
