@@ -16,16 +16,16 @@
 - Role name: ContactFormLambdaRole → click Create role
 - Open the role → Add permissions → Create inline policy → switch to JSON tab and paste:
 
-```
-{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Effect": "Allow",
-    "Action": ["ses:SendEmail", "ses:SendRawEmail"],
-    "Resource": "*"
-  }]
-}
-```
+  ```
+    {
+      "Version": "2012-10-17",
+      "Statement": [{
+        "Effect": "Allow",
+        "Action": ["ses:SendEmail", "ses:SendRawEmail"],
+        "Resource": "*"
+      }]
+    }
+  ```
 
 - Policy name: SESSendPolicy → click Create policy
 
